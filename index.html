@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <!-- плавный scroll -->
+    <script defer src="libs/gsap/gsap.min.js"></script>
+    <script defer src="libs/gsap/ScrollTrigger.min.js"></script>
+    <script defer src="libs/gsap/ScrollSmoother.min.js"></script>
+    <script defer src="script/script.js"></script>
+    <title>parallax</title>
+</head>
+<body>
+   <div class="wrapper">
+        <div class="content">
+            <header class="main-header">
+                <div class="layers">
+                    <div class="layers__header">
+                        <div class="layers__caption">Parallax</div>
+                        <div class="layers__title">Fairy Forest</div>
+                    </div>
+                    <div class="layer layers__base" style="background-image: url(./img/layer-base.png);"></div>
+                    <div class="layer layers__middle" style="background-image: url(./img/layer-middle.png);"></div>
+                    <div class="layer layers__fromt" style="background-image: url(./img/layer-front.png);"></div>
+                </div>
+            </header>
+        
+            <article class="main-article" style="background-image: url(./img/dungeon.jpg);"> 
+                <div class="main-article__content">
+                    <h2 class="main-article__header">To be continued</h2>
+                    <p class="main-article__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, id delectus, odio quo laborum aspernatur vero amet modi molestias voluptatibus omnis possimus, accusantium qui pariatur suscipit tempora quidem cum praesentium eius. Quam.</p>
+                </div>
+                <div class="copy">© S1vik</div>
+            </article> 
+        </div>
+   </div>
+</body>
+</html>
